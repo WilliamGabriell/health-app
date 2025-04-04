@@ -30,9 +30,7 @@ export default function LoginScreen(){
             <TouchableOpacity style={styles.button}>
                 <Text style = {styles.buttonText}>Login</Text>
             </TouchableOpacity>
-            <TouchableOpacity style={styles.button}>
-            <Text style = {styles.link}>Sing in</Text>
-            </TouchableOpacity>
+
             <TouchableOpacity onPress={()=> setShowRegister(true)}>
             <Text style = {styles.link}>Sing up</Text>
             </TouchableOpacity>
