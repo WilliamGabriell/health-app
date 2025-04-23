@@ -1,5 +1,5 @@
-import LoginScreen from "@/src/layouts/LoginScreen";
+import SplashScreen from "@/src/layouts/LoginScreen";
 
 export default function Index() {
-  return <LoginScreen />
+  return( <SplashScreen />)
 }
